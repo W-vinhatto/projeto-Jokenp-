@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Jonkenpo</title>
+</head>
+
+<body>
+    <section>
+        <h1>Jokenpô</h1>
+        <aside>
+            <button id="pedra" onclick="player('pedra')"> &#128074;</button>
+            <button id="papel" onclick="player('papel')"> &#128400;</button>
+            <button id="tesoura" onclick="player('tesoura')"> &#x270C; </button>
+        </aside>
+
+        <h2 id="result">&#x1F60D;</h2>
+        <p id="pontuacao-human"> sua pontuação: <span id="ponctuation-Human">0</span></p>
+        <p id="pontuacao-machine"> pontuação da alexa: <span id="ponctuation-Machine">0</span></p>
+    </section>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
