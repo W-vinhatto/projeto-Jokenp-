@@ -60,6 +60,11 @@ h2{
     margin: 10px 0;
 }
 
+#result-text{
+    margin-bottom: 10px;
+    color: rgb(98, 182, 239);
+}
+
 p{
     font-weight: bold;
 }
